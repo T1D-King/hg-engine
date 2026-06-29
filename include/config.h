@@ -11,7 +11,7 @@
 
 // APPLY_ANTIPIRACY will apply the typical anti-piracy code changes to your ROM automatically so that the game runs well on hardware (TWLmenu and R4 are both tested)
 // comment out the lines if you do not want anti-piracy to be applied to your ROM
-#define APPLY_ANTIPIRACY
+// #define APPLY_ANTIPIRACY
 
 // FAIRY_TYPE_IMPLEMENTED should be used if you want to implement the fairy type and overwrite type 9 in this project
 // set FAIRY_TYPE_IMPLEMENTED to 0 if you do not want this to happen
@@ -58,7 +58,7 @@
 
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
-// #define IMPLEMENT_TRANSPARENT_TEXTBOXES
+#define IMPLEMENT_TRANSPARENT_TEXTBOXES
 
 // IMPLEMENT_WILD_DOUBLE_BATTLES defines whether or not grass tiles will have a 10% chance of starting a wild double battle
 // commenting this line out disables wild double battles entirely
@@ -103,7 +103,7 @@
 
 // DISABLE_END_OF_TURN_WEATHER_MESSAGE removes the weather messages at the end of the turn.  instead the bottom screen icon can be used
 // uncomment the line out to get this functionality
-// #define DISABLE_END_OF_TURN_WEATHER_MESSAGE
+#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // IMPLEMENT_SEASONS currently implements season mechanics. Used for changing forms of Deerling and Sawsbuck.
 // Comment the line out to disable this functionality (Gen 6+)
@@ -124,7 +124,7 @@
 // SHINY_ODDS are the odds that a pokémon will be shiny.  actual odds are SHINY_ODDS over 65,536, by default 8 / 65536 or 1 / 8192
 // note that changing this still has no chance of spawning shiny mons in for trainers like the tutorial's method does
 // this will change existing mons too!  if you want to change the odds of wild mons only, you will have to add a certain amount of pid rerolls to the AddWildPartyPokemon routine
-#define SHINY_ODDS 8
+#define SHINY_ODDS 32
 
 // FRIENDSHIP_EVOLUTION_THRESHOLD defines the amount of friendship needed to evolve mons with friendship-related evolutions
 // modern generations have this value at 160, older ones at 220.  still max out at 255
@@ -132,7 +132,7 @@
 
 // Friendship grants additional bonuses.
 // Comment out the line below to revert back to Gen 5- behaviour
-#define FRIENDSHIP_EFFECTS
+// #define FRIENDSHIP_EFFECTS
 
 // RESTORE_ITEMS_AT_BATTLE_END will restore held items that are single-use at the end of battle (Gen 9)
 // comment out the line below to revert back to Gen 8- behavior
@@ -165,13 +165,13 @@
 #define REUSABLE_TMS
 
 // DELETABLE_HMS allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
-// #define DELETABLE_HMS
+#define DELETABLE_HMS
 
 // MART_EXPANSION allows for adding and modifying items to the mart inventories
 #define MART_EXPANSION
 
 // POKEATHLON_EXPANSION allows for adding and modifying items to the Pokéathlon shop inventories
-// #define POKEATHLON_SHOP_EXPANSION
+#define POKEATHLON_SHOP_EXPANSION
 
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
@@ -199,10 +199,10 @@
 
 // THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN makes the Thunder & Storm map header weathers set permanent
 // Electric Terrain (and rain) in battle
-// #define THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN
+#define THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN
 
 // FOG_SETS_MISTY_TERRAIN makes the Fog map header weather set permanent Misty Terrain in battle
-// #define FOG_WEATHER_MISTY_TERRAIN
+#define FOG_WEATHER_MISTY_TERRAIN
 
 // NATURAL_GIFT_POWER_GEN defines the power of Natural Gift based on generation. Gen 6 or higher are modernized values.
 #define NATURAL_GIFT_POWER_GEN GEN_LATEST
