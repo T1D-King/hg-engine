@@ -10,6 +10,10 @@
         "Move": "MOVE_GROWL"
       },
       {
+        "Level": 1,
+        "Move": "MOVE_VINE_WHIP"
+      },
+      {
         "Level": 3,
         "Move": "MOVE_VINE_WHIP"
       },
