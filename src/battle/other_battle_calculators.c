@@ -691,6 +691,13 @@ BOOL LONG_CALL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int
             accuracyModifier = QMul_RoundUp(accuracyModifier, UQ412__1_3);
         }
 
+        // Illuminate - 5325/4096
+
+        if ((attacker == sp->rawSpeedNonRNGClientOrder[i])
+            && (atk_ability == ABILITY_ILLUMINATE)) {
+            accuracyModifier = QMul_RoundUp(accuracyModifier, UQ412__1_3);
+        }
+
         // Victory Star - 4506/4096 for each Victory Star
 
         if (BATTLER_ALLY(attacker) == sp->rawSpeedNonRNGClientOrder[i]
