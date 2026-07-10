@@ -117,10 +117,10 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         },
         .data = {
             .effect = MOVE_EFFECT_MULTI_HIT,
-            .split = SPLIT_PHYSICAL,
-            .power = 18,
+            .split = SPLIT_SPECIAL,
+            .power = 25,
             .type = TYPE_NORMAL,
-            .accuracy = 85,
+            .accuracy = 100,
             .pp = 15,
             .effectChance = 0,
         },
@@ -8245,7 +8245,7 @@ const MoveSourceEntry sMoveSource[NUM_OF_MOVES + 1] = {
         .data = {
             .effect = MOVE_EFFECT_BADLY_POISON_HIT,
             .split = SPLIT_PHYSICAL,
-            .power = 50,
+            .power = 60,
             .type = TYPE_POISON,
             .accuracy = 100,
             .pp = 15,
