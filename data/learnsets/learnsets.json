@@ -26812,6 +26812,10 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_SKETCH"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_REFLECT_TYPE"
       },
       {
