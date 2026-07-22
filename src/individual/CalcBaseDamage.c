@@ -1039,7 +1039,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
         if (attacker == damageCalc->rawSpeedNonRNGClientOrder[i]) {
             // handle Slow Start
             if ((AttackingMon.ability == ABILITY_SLOW_START)
-                && ((BattleWorkMonDataGet(bw, sp, 3, 0) - BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SLOW_START_COUNTER, NULL)) < 5)
+                && ((BattleWorkMonDataGet(bw, sp, 3, 0) - BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SLOW_START_COUNTER, NULL)) < 3)
                 && (movesplit == SPLIT_PHYSICAL || MoveIsZMove(moveno))) {
                 attackModifier = QMul_RoundUp(attackModifier, UQ412__0_5);
             }

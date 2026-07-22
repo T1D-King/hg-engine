@@ -522,7 +522,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
 
                         // check slow start end as well
-                        if ((sp->battlemon[client_no].slow_start_end_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SLOW_START) && ((sp->total_turn - sp->battlemon[client_no].moveeffect.slowStartTurns) == 5)) {
+                        if ((sp->battlemon[client_no].slow_start_end_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SLOW_START) && ((sp->total_turn - sp->battlemon[client_no].moveeffect.slowStartTurns) == 3)) {
                             sp->battlemon[client_no].slow_start_end_flag = 1;
                             sp->battlerIdTemp = client_no;
                             scriptnum = SUB_SEQ_HANDLE_SLOW_START_END;
