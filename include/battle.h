@@ -2247,7 +2247,7 @@ extern u16 PunchingMovesTable[26];
 
 extern u16 StrongJawMovesTable[11];
 
-extern u16 MegaLauncherMovesTable[50];
+extern u16 MegaLauncherMovesTable[51];
 
 extern u16 SharpnessMovesTable[31];
 

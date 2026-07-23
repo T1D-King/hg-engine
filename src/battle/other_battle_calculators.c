@@ -158,6 +158,7 @@ const u16 BulletproofMoveList[] = {
     MOVE_ICE_BEAM,
     MOVE_MAGNET_BOMB,
     MOVE_MIST_BALL,
+    MOVE_MOONBLAST,
     MOVE_MOONGEIST_BEAM,
     MOVE_MUD_BOMB,
     MOVE_OCTAZOOKA,
@@ -484,7 +485,7 @@ u16 StrongJawMovesTable[11] = {
     MOVE_BUG_BITE,
 };
 
-u16 MegaLauncherMovesTable[50] = {
+u16 MegaLauncherMovesTable[51] = {
     MOVE_AURA_SPHERE,
     MOVE_DARK_PULSE,
     MOVE_DRAGON_PULSE,
@@ -515,6 +516,7 @@ u16 MegaLauncherMovesTable[50] = {
     MOVE_ICE_BEAM,
     MOVE_MAGNET_BOMB,
     MOVE_MIST_BALL,
+    MOVE_MOONBLAST,
     MOVE_MOONGEIST_BEAM,
     MOVE_MUD_BOMB,
     MOVE_OCTAZOOKA,
