@@ -2243,13 +2243,13 @@ extern u8 TypeEffectivenessTable[][3];
 
 extern u8 HeldItemPowerUpTable[36][2];
 
-extern u16 PunchingMovesTable[24];
+extern u16 PunchingMovesTable[26];
 
-extern u16 StrongJawMovesTable[10];
+extern u16 StrongJawMovesTable[11];
 
-extern u16 MegaLauncherMovesTable[7];
+extern u16 MegaLauncherMovesTable[50];
 
-extern u16 SharpnessMovesTable[27];
+extern u16 SharpnessMovesTable[31];
 
 extern u16 sLowKickWeightToPower[6][2];
 
