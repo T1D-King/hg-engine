@@ -667,7 +667,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             // handle Iron Fist
             if ((AttackingMon.ability == ABILITY_IRON_FIST)
                 && IsElementInArray(PunchingMovesTable, (u16 *)&moveno, NELEMS(PunchingMovesTable), sizeof(PunchingMovesTable[0]))) {
-                basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_2);
+                basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_5);
                 continue;
             }
 
