@@ -1045,8 +1045,8 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             }
 
             // handle Defeatist
-            if ((AttackingMon.ability == ABILITY_DEFEATIST) && (AttackingMon.hp <= AttackingMon.maxhp / 2)) {
-                attackModifier = QMul_RoundUp(attackModifier, UQ412__0_5);
+            if ((AttackingMon.ability == ABILITY_DEFEATIST) && (AttackingMon.hp <= AttackingMon.maxhp / 3)) {
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__0_75);
             }
 
             // handle weather boosts
