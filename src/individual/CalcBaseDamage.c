@@ -775,7 +775,7 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
             // handle Power Spot
             // TODO: confirm location
-            if (AttackingMonAlly.ability == ABILITY_POWER_SPOT) {
+            if (AttackingMonAlly.ability == ABILITY_POWER_SPOT || AttackingMon.ability == ABILITY_POWER_SPOT) {
                 basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_3);
             }
 

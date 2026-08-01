@@ -2275,11 +2275,11 @@ extern u8 TypeEffectivenessTable[][3];
 
 extern u8 HeldItemPowerUpTable[36][2];
 
-extern u16 PunchingMovesTable[26];
+extern u16 PunchingMoveTable[26];
 
 extern u16 BitingMoveTable[11];
 
-extern u16 PulseMoveTable[53];
+extern u16 PulseMoveTable[54];
 
 extern u16 SlicingMoveTable[31];
 

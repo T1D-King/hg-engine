@@ -489,7 +489,7 @@ u16 BitingMoveTable[11] = {
     MOVE_BUG_BITE,
 };
 
-u16 PulseMoveTable[51] = {
+u16 PulseMoveTable[54] = {
     MOVE_AURA_SPHERE,
     MOVE_DARK_PULSE,
     MOVE_DRAGON_PULSE,
