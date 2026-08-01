@@ -1183,6 +1183,11 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
             if (AttackingMon.ability == ABILITY_FIRE_MANE && (movetype == TYPE_FIRE)) {
                 attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
             }
+
+            // handle Ice Body
+            if (AttackingMon.ability == ABILITY_ICE_BODY && (movetype == TYPE_ICE)) {
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__1_5);
+            }
         }
 
         if (BATTLER_ALLY(attacker) == damageCalc->rawSpeedNonRNGClientOrder[i]) {
