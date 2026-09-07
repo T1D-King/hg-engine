@@ -1217,6 +1217,13 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
                 continue;
             }
 
+            // handle Leaf Guard
+            if ((movetype == TYPE_FIRE)
+                && (MoldBreakerAbilityCheckInternal(attacker, defender, AttackingMon.ability, DefendingMon.ability, moveno, movesplit, ABILITY_LEAF_GUARD) == TRUE)) {
+                attackModifier = QMul_RoundUp(attackModifier, UQ412__0_5);
+                continue;
+            }
+
             // handle Thick Fat
             if ((MoldBreakerAbilityCheckInternal(attacker, defender, AttackingMon.ability, DefendingMon.ability, moveno, movesplit, ABILITY_THICK_FAT) == TRUE)
                 && ((movetype == TYPE_FIRE) || (movetype == TYPE_ICE))) {
