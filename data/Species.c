@@ -1386,7 +1386,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 79,
                 .speed = 80,
             },
-            .types = { TYPE_POISON, TYPE_POISON },
+            .types = { TYPE_POISON, TYPE_DARK },
             .catchRate = 90,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -4407,7 +4407,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 100,
             },
-            .types = { TYPE_FIRE, TYPE_FIRE },
+            .types = { TYPE_FIRE, TYPE_FAIRY },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -11760,7 +11760,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 65,
                 .speed = 45,
             },
-            .types = { TYPE_NORMAL, TYPE_NORMAL },
+            .types = { TYPE_NORMAL, TYPE_FAIRY },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -13239,7 +13239,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .attack = 120,
                 .defense = 130,
                 .spAttack = 55,
-                .spDefense = 60,
+                .spDefense = 85,
                 .speed = 50,
             },
             .types = { TYPE_GROUND, TYPE_GROUND },
@@ -45561,7 +45561,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 55,
                 .speed = 45,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_FIGHTING },
             .catchRate = 190,
             .baseExpRewardPadding = 0,
             .evYields = {
@@ -45618,7 +45618,7 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
                 .spDefense = 85,
                 .speed = 35,
             },
-            .types = { TYPE_GROUND, TYPE_GROUND },
+            .types = { TYPE_GROUND, TYPE_FIGHTING },
             .catchRate = 60,
             .baseExpRewardPadding = 0,
             .evYields = {
