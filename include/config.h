@@ -11,7 +11,7 @@
 
 // APPLY_ANTIPIRACY will apply the typical anti-piracy code changes to your ROM automatically so that the game runs well on hardware (TWLmenu and R4 are both tested)
 // comment out the lines if you do not want anti-piracy to be applied to your ROM
-// #define APPLY_ANTIPIRACY
+#define APPLY_ANTIPIRACY
 
 // FAIRY_TYPE_IMPLEMENTED should be used if you want to implement the fairy type and overwrite type 9 in this project
 // set FAIRY_TYPE_IMPLEMENTED to 0 if you do not want this to happen
@@ -237,11 +237,11 @@
 #define PREVENT_SELECTING_BERRY_PREREQUISITE_MOVES_GENERATION GEN_LATEST
 
 // ENTIRE_PARTY_AFFECTS_ROCK_SMASH causes the abilities of all party Pokemon to influence the odds of getting an item from breaking rocks, rather than just the following Pokemon.
-// #define ENTIRE_PARTY_AFFECTS_ROCK_SMASH
+#define ENTIRE_PARTY_AFFECTS_ROCK_SMASH
 
 // SKIP_TUTORIAL_INFO will skip the tutorial when starting a new game and go straight to Professor Oak greeting you.
 // uncomment the line out to get this functionality
-// #define SKIP_TUTORIAL_INFO
+#define SKIP_TUTORIAL_INFO
 
 // Champions-specific move configurations. Set to 0 to use Scarlet/Violet values.
 #define CHAMPIONS_POWER_CHANGES         1
@@ -270,6 +270,6 @@
 
 // PLAY_MON_VICTORY_POSE enables the victory pose for Pokémon when fainting an opponent.
 // Comment out this define if you want to disable this feature.
-// #define PLAY_MON_VICTORY_POSE
+#define PLAY_MON_VICTORY_POSE
 
 #endif
